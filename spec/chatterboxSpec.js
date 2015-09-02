@@ -1,4 +1,8 @@
+<<<<<<< HEAD
   describe('chatterbox', function() {
+=======
+describe('chatterbox', function() {
+>>>>>>> bf8492a6929e7cba68e5ebaf68aeea823f2f0433
   it('should parse correctly and have an object named `app`', function(){
     expect(app).to.be.an('object');
   });

@@ -2,8 +2,12 @@
   "name": "chatterbox",
   "version": "0.0.0",
   "dependencies": {
+<<<<<<< HEAD
     "jquery": "~2.0.3",
     "underscore": "~1.8.3"
+=======
+    "jquery": "~2.0.3"
+>>>>>>> bf8492a6929e7cba68e5ebaf68aeea823f2f0433
   },
   "ignore": [
     "**/.*",
