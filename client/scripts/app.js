@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $(document).ready(function(){
   var user = window.location.search.split('username=')[1];
   var rooms = {lobby: 1};
@@ -74,6 +75,8 @@ $(document).ready(function(){
       chat.append(textNode);
 =======
 >>>>>>> parent of c533f55... Implement all basic requirements
+=======
+>>>>>>> parent of c533f55... Implement all basic requirements
 
 var results;
 var app = {
@@ -119,6 +122,7 @@ var app = {
     console.log('handleSubmit was called');
   }
 };
+<<<<<<< HEAD
 
 var success = function(json){
   console.log(json);
@@ -383,6 +387,35 @@ $(function() {
 
 
 
+=======
+
+var success = function(json){
+  console.log(json);
+  results = json;
+  // var $testnode = $('<p>' + JSON.stringify(json) + '</p>');
+  // $('#main').append($testnode);
+};
+
+
+// $(document).ready(function(){
+
+
+// };
+
+
+
+
+// YOUR CODE HERE:
+// create app
+// initialize method
+// send method
+  // needs POST request
+// fetch method
+  // needs GET request
+
+
+
+>>>>>>> parent of c533f55... Implement all basic requirements
 // need to initialize our app (document.ready)
 // load messages on to page
   // start with default chatroom
@@ -406,4 +439,7 @@ $(function() {
   // allow creating new rooms
   // will fetch messages from the right room
   // must take away current messages displayed when new room selected
+<<<<<<< HEAD
+>>>>>>> parent of c533f55... Implement all basic requirements
+=======
 >>>>>>> parent of c533f55... Implement all basic requirements
